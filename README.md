@@ -1,5 +1,7 @@
 # genesis-test-app
 
+Тестовое задание (https://docs.google.com/document/d/16OsL6QxMmWxVUunsaxRqlpMYhmfBn6bHIfHsi8QsIKA/edit#heading=h.l6t624j3rn3t)
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
