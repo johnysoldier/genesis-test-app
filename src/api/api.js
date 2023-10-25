@@ -71,4 +71,4 @@ async function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-export { getData };
+export { getData, createDeal, createContact, createCompany };
