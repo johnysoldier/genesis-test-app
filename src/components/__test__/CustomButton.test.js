@@ -20,4 +20,22 @@ describe("CustomButton", () => {
     const button = wrapper.find("button");
     expect(button.element.disabled).toBe(false);
   });
+
+  test("not disabled button", () => {
+    const choice = "Контакт";
+    const wrapper = mount(CustomButton, {
+      props: { choice },
+    });
+    const button = wrapper.find("button");
+    expect(button.element.disabled).toBe(false);
+  });
+
+  test("not disabled button", () => {
+    const choice = "Компания";
+    const wrapper = mount(CustomButton, {
+      props: { choice },
+    });
+    const button = wrapper.find("button");
+    expect(button.element.disabled).toBe(false);
+  });
 });
